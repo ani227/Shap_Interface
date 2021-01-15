@@ -1,0 +1,101 @@
+body {
+margin: 0px;
+margin: auto;
+}
+
+.row {
+width: 100%;
+}
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { 
+border-radius: 20px; 
+}
+
+.toggle.ios .toggle-handle { 
+border-radius: 30px; 
+}
+
+.override{
+text-align: center;
+font-weight: 700;
+}
+
+body{
+width:100%;
+background: #FFCE71;
+
+}
+
+.header{
+padding: .5em;
+background-color: #E4B354;
+font-size: 1.2em;
+}
+
+.fa-arrow-left {
+float: left;
+color: #815A1F;
+padding-top: .15em;
+padding-left: .7em;
+padding-right: .5em;
+}
+
+h3 { 
+padding-left: .8em;
+color: #815A1F;
+font-size: 2em;
+font-weight: 700;
+margin-top: -5px;
+}
+
+h3:hover {
+text-decoration: none;
+}
+
+
+.room{
+padding-top: 2em;
+      
+}
+
+.control{
+padding-top:17px;
+padding-bottom:25px;
+}
+
+.panel-heading {
+padding:48px;
+  border-radius: 2em 2em 0 0;
+}
+
+.panel-default{
+box-shadow: 0 0 3px black;
+background-color: #FDE7A3;
+border-radius: 2em;
+}
+
+.panel-body{
+padding:30px;
+background-color: #FDF4CA;
+border-radius: 0 0 2em 2em;
+}
+
+img{
+margin-top: 2em;
+margin-bottom: 1.5em;
+}
+
+.panel-default > .panel-heading {
+background-color: #FDE7A3;
+}
+
+strong {
+color: #815A1F;
+}
+
+@media only screen and (max-width: 600px) {
+.control{
+  margin-left: 9%;
+}
+}
+
